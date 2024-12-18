@@ -1,0 +1,106 @@
+body{
+    background-image: url(img/background@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Be Vietnam Pro", sans-serif;
+}   
+
+
+::placeholder{
+    color: black;
+}
+
+h1{
+    font-size: 64px;
+    text-align: center;
+    padding: 0 30px;
+    color: #ffffff;
+}
+
+p{
+    font-size: 32px;
+    text-align: center;
+    padding: 0 30px;
+    color: #ffffff;
+}
+
+.formulario{
+    background-color: #CDD5E063;
+    border-radius: 10px;
+    padding: 20px 20px 10px 20px;
+}
+
+label{
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+}
+
+.formulario input, select, textarea{
+    font-weight: 700;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 0;
+    display: flex;
+    height: 50px;
+    font-size: 16px;
+}
+
+input:not([type="submit"]){
+    /*max-width: calc(100% - 4%);*/
+    padding: 0;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+textarea{
+    height: 150px;
+    max-width: calc(100% - 3%);
+}
+
+.boton-azul{
+    color: #4036A9;
+}
+
+/* --Media Query*/
+@media (min-width: 1024px) {
+    .centrado{
+        width: 800px;
+        margin: 40px auto;
+    }
+
+    .formulario input, select, textarea{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .bloq-sup, .bloq-inf{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    input:not([type="submit"]){
+        /*max-width: calc(100% - 4%);*/
+        padding: 0;
+        padding-left: 10px;
+    }
+
+    .bloque{
+        width: 48%;
+    }
+
+    .arriba{
+        display: block;
+    }
+}
+
+@media (min-width: 1280px) {
+    .centrado{
+        width: 800px;
+        margin: 40px auto;
+    }
+}

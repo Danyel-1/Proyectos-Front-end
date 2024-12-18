@@ -1,0 +1,123 @@
+/*media querys */
+@media (min-width: 641px) {
+    body{
+        display: block;
+        margin: 40px;
+    }
+
+    .just-izq{
+        width: 100%;
+    }
+
+    .just-der{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .just-der .testimonio:first-child{
+        margin-left: auto;
+    }  
+
+    .testimonio{
+        width: 285px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body{
+        display: flex;
+        margin:100px 50px;
+    }
+
+    .just-izq{
+        width: 50%;
+        margin-right: inherit;
+    }
+    
+    .just-der{
+        width: 50%;
+        margin-top: 40px;
+    }
+    
+}
+
+/*Tipografias*/
+h1{
+    font-family: "Sora",sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+h2{
+    font-family: "Sora",sans-serif;
+    font-size: 16px;
+}
+
+.just-izq{
+    margin-top: 40px;
+}
+
+.just-izq p{
+    font-family: "Sora", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #52525A;
+}
+
+.just-der p{
+    font-family: "Sora", sans-serif;
+    font-size: 16px;
+    color: #52525A;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+body{
+    background-color: #eaeaea;
+    height: 380px;
+}
+
+.estrella{
+    background-color: #F5C044;
+    border-radius: 50%;
+    width: 30px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.estrella img{
+    width: 100%;
+}
+
+.puntaje{
+    display: flex;
+    width: 70%;
+    gap: 5px;
+}
+
+.logo{
+    width: 40%;
+    margin-right: 10px;
+}
+
+
+.testimonio{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.just-der{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: url(img/Done_ring_round_fill.svg);
+    margin-left: -15px;
+    font-size: 14px;
+    font-family: "Sora", sans-serif;
+    line-height: 1.5;
+}
